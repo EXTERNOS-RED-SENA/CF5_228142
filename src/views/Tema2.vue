@@ -5,10 +5,10 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Fundamentos de instalación
+      h1 Dispositivos y componentes IoT
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.mb-lg-0.mb-3
-        p.mb-0 El módulo sobre dispositivos y componentes IoT se enfoca en los elementos indispensables que hacen posible el Internet of Things (IoT), donde los dispositivos están interconectados, comparten información y permiten la automatización y el monitoreo inteligente. La implementación de sistemas IoT requiere de componentes específicos, como sensores, actuadores, gateways y microcontroladores, que juntos habilitan una comunicación fluida y eficaz en la red, y permiten que los sistemas respondan de manera autónoma según las condiciones detectadas.
+        p.mb-0 El módulo sobre dispositivos y componentes IoT se enfoca en los elementos indispensables que hacen posible el #[em Internet of Things] (IoT), donde los dispositivos están interconectados, comparten información y permiten la automatización y el monitoreo inteligente. La implementación de sistemas IoT requiere de componentes específicos, como sensores, actuadores, #[em gateways] y microcontroladores, qué juntos habilitan una comunicación fluida y eficaz en la red, y permiten que los sistemas respondan de manera autónoma según las condiciones detectadas.
       .col-lg-2.col-7: img(src='@/assets/curso/temas/15.svg', alt='')
     .mn.p-5.bg-slyde
       .tarjeta.bg-white.p-5
@@ -21,13 +21,13 @@
                 img(src='@/assets/curso/temas/16.png', alt='Texto que describa la imagen')
           .row
             .col-lg-7.mb-4.mb-md-0
-              p Los gateways y controladores desempeñan un papel principal en la infraestructura de redes IoT. Los gateways actúan como intermediarios que traducen los protocolos de comunicación y envían datos de los dispositivos al sistema central, ya sea en el cloud o en servidores locales. Su función es determinante para filtrar, procesar y gestionar el tráfico de datos en tiempo real, garantizando que la información se envíe de manera segura y eficiente. Los controladores, por otro lado, coordinan la comunicación entre sensores y actuadores, gestionando el flujo de datos y asegurando que las respuestas sean adecuadas y rápidas.
+              p Los #[em gateways] y controladores desempeñan un papel principal en la infraestructura de redes IoT. Los #[em gateways] actúan como intermediarios que traducen los protocolos de comunicación y envían datos de los dispositivos al sistema central, ya sea en el #[em cloud] o en servidores locales. Su función es determinante para filtrar, procesar y gestionar el tráfico de datos en tiempo real, garantizando que la información se envíe de manera segura y eficiente. Los controladores, por otro lado, coordinan la comunicación entre sensores y actuadores, gestionando el flujo de datos y asegurando que las respuestas sean adecuadas y rápidas.
             .col-lg-5.col-7
               figure
                 img(src='@/assets/curso/temas/17.png', alt='Texto que describa la imagen')
           .row
             .col-lg-7.mb-4.mb-md-0
-              p Los microcontroladores y plataformas de procesamiento local o en el cloud permiten que los sistemas IoT analicen datos y tomen decisiones autónomas en función de los algoritmos de programación. Estos dispositivos, como las placas Arduino y Raspberry Pi, son plataformas versátiles que soportan múltiples tipos de sensores y actuadores, facilitando la creación de soluciones personalizadas para aplicaciones específicas. La incorporación de estos microcontroladores permite el procesamiento local, que es particularmente útil en aplicaciones que requieren respuestas inmediatas, mientras que el cloud permite el análisis de grandes volúmenes de datos en un entorno centralizado.
+              p Los microcontroladores y plataformas de procesamiento local o en el #[em cloud] permiten que los sistemas IoT analicen datos y tomen decisiones autónomas en función de los algoritmos de programación. Estos dispositivos, como las placas Arduino y Raspberry Pi, son plataformas versátiles que soportan múltiples tipos de sensores y actuadores, facilitando la creación de soluciones personalizadas para aplicaciones específicas. La incorporación de estos microcontroladores permite el procesamiento local, que es particularmente útil en aplicaciones que requieren respuestas inmediatas, mientras que el #[em cloud] permite el análisis de grandes volúmenes de datos en un entorno centralizado.
             .col-lg-5.col-7
               figure
                 img(src='@/assets/curso/temas/18.png', alt='Texto que describa la imagen')
@@ -85,13 +85,13 @@
         .col-lg-5.d-lg-block.d-none: img(src='@/assets/curso/temas/21.png', alt='')
         .col-lg-7
           .p-4
-            p.mb-0 Los gateways y controladores desempeñan roles decisivos en la infraestructura de los sistemas IoT, actuando como intermediarios y gestores en la comunicación entre dispositivos y redes. Los gateways son responsables de conectar los dispositivos IoT a la red principal, ya sea a través de redes locales o mediante conexión a la cloud. Estos dispositivos filtran y traducen los datos recibidos de los sensores, asegurando que la información se envíe de forma segura y eficiente a los sistemas de procesamiento central. Los gateways también permiten la interoperabilidad entre dispositivos que utilizan diferentes protocolos de comunicación, facilitando la transmisión de datos en redes complejas y distribuidas.
+            p.mb-0 Los #[em gateways] y controladores desempeñan roles decisivos en la infraestructura de los sistemas IoT, actuando como intermediarios y gestores en la comunicación entre dispositivos y redes. Los #[em gateways] son responsables de conectar los dispositivos IoT a la red principal, ya sea a través de redes locales o mediante conexión a la #[em cloud.] Estos dispositivos filtran y traducen los datos recibidos de los sensores, asegurando que la información se envíe de forma segura y eficiente a los sistemas de procesamiento central. Los #[em gateways] también permiten la interoperabilidad entre dispositivos que utilizan diferentes protocolos de comunicación, facilitando la transmisión de datos en redes complejas y distribuidas.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9.mb-lg-0.mb-3
         p.mb-0 Los controladores se encargan de gestionar y coordinar las interacciones entre dispositivos dentro de un sistema IoT, actuando como el “cerebro” local que toma decisiones sobre la base de los datos obtenidos de los sensores. En muchos sistemas, los controladores están programados para responder de forma autónoma, enviando instrucciones a los actuadores sin necesidad de intervención humana. Estos dispositivos permiten una comunicación fluida y rápida, especialmente en aplicaciones donde la velocidad de respuesta es crítica, como en sistemas industriales o de seguridad.
           br
           br
-          |En conjunto, los gateways y controladores aseguran la estabilidad y eficiencia de los sistemas IoT. Los gateways manejan la conexión y el flujo de datos, mientras que los controladores procesan la información y gestionan las acciones dentro del sistema, facilitando la autonomía y el control centralizado. Esta organización es especialmente útil en aplicaciones de ciudades inteligentes, agricultura de precisión y automatización del hogar, donde se requiere monitoreo constante y respuesta inmediata.
+          |En conjunto, los #[em gateways] y controladores aseguran la estabilidad y eficiencia de los sistemas IoT. Los #[em gateways] manejan la conexión y el flujo de datos, mientras que los controladores procesan la información y gestionan las acciones dentro del sistema, facilitando la autonomía y el control centralizado. Esta organización es especialmente útil en aplicaciones de ciudades inteligentes, agricultura de precisión y automatización del hogar, donde se requiere monitoreo constante y respuesta inmediata.
       .col-lg-3.col-7: img(src='@/assets/curso/temas/22.svg', alt='')
     Separador
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -104,7 +104,7 @@
           .col-lg-9
             .p-4(style="background-color: #e2f4f9 ")
               p.mb-0 Las plataformas de desarrollo como Raspberry Pi o Arduino proporcionan entornos de hardware y software que facilitan la creación y prueba de soluciones IoT. Estas plataformas son versátiles y compatibles con una amplia variedad de sensores y actuadores, permitiendo a los desarrolladores diseñar soluciones específicas para aplicaciones en áreas como la automatización del hogar, la agricultura de precisión o la industria 4.0. Regularmente, muchas plataformas son de código abierto, lo que fomenta la innovación y permite que los sistemas se adapten a necesidades particulares.
-        p.mb-0 En el contexto de IoT, los microcontroladores y plataformas de desarrollo permiten un procesamiento de datos más eficiente y rápido, lo que es vital para aplicaciones que requieren respuestas inmediatas. En sistemas complejos, los microcontroladores pueden actuar como dispositivos de borde (edge devices), procesando los datos localmente y enviando solo información relevante a la cloud para un análisis más profundo. Esto reduce la latencia y permite que los sistemas respondan en tiempo real a los cambios en el entorno.
+        p.mb-0 En el contexto de IoT, los microcontroladores y plataformas de desarrollo permiten un procesamiento de datos más eficiente y rápido, lo que es vital para aplicaciones que requieren respuestas inmediatas. En sistemas complejos, los microcontroladores pueden actuar como dispositivos de borde (edge devices), procesando los datos localmente y enviando solo información relevante a la #[em cloud] para un análisis más profundo. Esto reduce la latencia y permite que los sistemas respondan en tiempo real a los cambios en el entorno.
       .col-lg-3.col-7: img(src='@/assets/curso/temas/24.png', alt='')
     .bloque-texto-g.color-acento-contenido2.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(

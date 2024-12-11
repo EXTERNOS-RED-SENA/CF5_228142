@@ -28,10 +28,10 @@
     .row.justify-content-center.mb-5
       .col-lg-9.mb-lg-0.mb-3
         TabsA.color-acento-botones.mb-5
-          .tarjeta.p-4(titulo="WiFi (IEEE 802.11)" style="background-color: #efe8f7 ")
+          .tarjeta.p-4(titulo="WiFi <br>(IEEE 802.11)" style="background-color: #efe8f7 ")
             p Principal tecnología para redes locales inalámbricas (WLAN), diseñada para ofrecer conexión de alta velocidad en áreas limitadas, como hogares o espacios de trabajo. Los protocolos más utilizados son 802.11n, 802.11ac y 802.11ax, cada uno con mejoras en velocidad y eficiencia.
 
-          .tarjeta.p-4(titulo="Bluetooth (IEEE 802.15.1)" style="background-color: #efe8f7 ")
+          .tarjeta.p-4(titulo="Bluetooth <br>(IEEE 802.15.1)" style="background-color: #efe8f7 ")
             p Enfocado en la comunicación a corta distancia, Bluetooth es ideal para la conectividad entre dispositivos personales, como teléfonos, auriculares y periféricos. Las versiones más recientes, como Bluetooth 5.0, ofrecen mayor velocidad y cobertura.
 
 
@@ -44,7 +44,7 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 1.
           span Estándares y protocolos de conectividad inalámbrica
-        img(src='@/assets/curso/temas/8.svg', alt='')
+        img(src='@/assets/curso/temas/8.svg', alt='La Figura 1 se denomina «Estándares de Conectividad Inalámbrica» muestra un esquema jerárquico de los principales protocolos de redes inalámbricas, destacando Wi-Fi, Bluetooth y redes celulares (3G/4G/5G). Cada protocolo se presenta con una breve descripción de sus características y usos, ilustrando las distintas aplicaciones de conectividad para redes locales, dispositivos personales y áreas de cobertura amplia.')
         figcaption  Fuente: OIT, 2024.
     Separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -81,10 +81,10 @@
       .row.m-0.align-items-center.justify-content-between
         .col-lg-8
           .bloque-texto-a__texto.p-4
-            p Las arquitecturas inalámbricas representan todo un avance en los sistemas de intercomunicación de dispositivos también presentan aspectos de debilidad como lo es la seguridad y la estabilidad de la conexión en cada tipo de red. Las redes de infraestructura, al depender de un punto central de acceso, pueden implementar protocolos de seguridad más avanzados, como el control de acceso y la autenticación de usuarios. Esto las convierte en una opción más segura y estable para entornos que requieren confidencialidad en la transmisión de datos, como oficinas o instituciones.
+            p Las arquitecturas inalámbricas representan todo un avance en los sistemas de intercomunicación de dispositivos, también presentan aspectos de debilidad como lo es la seguridad y la estabilidad de la conexión en cada tipo de red. Las redes de infraestructura, al depender de un punto central de acceso, pueden implementar protocolos de seguridad más avanzados, como el control de acceso y la autenticación de usuarios. Esto las convierte en una opción más segura y estable para entornos que requieren confidencialidad en la transmisión de datos, como oficinas o instituciones.
               br
               br
-              |Por su parte, las redes ad hoc, al carecer de un nodo de control centralizado, presentan desafíos adicionales en términos de seguridad, ya que cada dispositivo actúa como un nodo independiente. Esto las hace más vulnerables a ataques externos y menos estables cuando se incrementa el número de dispositivos conectados o cuando existen interferencias en el entorno. 
+              |Por su parte, las redes #[em ad hoc], al carecer de un nodo de control centralizado, presentan desafíos adicionales en términos de seguridad, ya que cada dispositivo actúa como un nodo independiente. Esto las hace más vulnerables a ataques externos y menos estables cuando se incrementa el número de dispositivos conectados o cuando existen interferencias en el entorno. 
         .col-lg-4.mb-4.mb-lg-0
           img(src='@/assets/curso/temas/14.svg', alt='')
 

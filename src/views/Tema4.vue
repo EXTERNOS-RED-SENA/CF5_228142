@@ -13,7 +13,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
         .p-4.mb-4(style="background-color:#ebf6ea ")
-          p.mb-0 Uno de los métodos más utilizados para proteger redes inalámbricas es la implementación de protocolos de seguridad, como WEP (Wired Equivalent Privacy), WPA (Wi-Fi Protected Access) y WPA2. Estos protocolos encriptan la información que circula en la red, dificultando el acceso a los datos transmitidos por personas no autorizadas. Sin embargo, cada protocolo tiene un nivel de seguridad diferente; WEP, por ejemplo, es una tecnología más antigua y vulnerable, mientras que WPA2 es más avanzada y segura. Es importante que las redes actuales implementen, como mínimo, WPA2 para minimizar los riesgos de interceptación y ataques.
+          p.mb-0 Uno de los métodos más utilizados para proteger redes inalámbricas es la implementación de protocolos de seguridad, como WEP (#[em Wired Equivalent Privacy]), WPA (Wi-Fi #[em Protected Access]) y WPA2. Estos protocolos encriptan la información que circula en la red, dificultando el acceso a los datos transmitidos por personas no autorizadas. Sin embargo, cada protocolo tiene un nivel de seguridad diferente; WEP, por ejemplo, es una tecnología más antigua y vulnerable, mientras que WPA2 es más avanzada y segura. Es importante que las redes actuales implementen, como mínimo, WPA2 para minimizar los riesgos de interceptación y ataques.
         p.mb-0 La autenticación y el control de acceso son otro pilar de la seguridad en redes inalámbricas. Estos mecanismos aseguran que solo los usuarios y dispositivos autorizados puedan conectarse a la red. Las técnicas de autenticación incluyen contraseñas seguras, autenticación multifactorial (MFA) y certificados digitales. Igualmente, los sistemas de control de acceso pueden dividir la red en diferentes niveles, creando redes de invitados separadas de las redes de uso interno, lo cual minimiza la exposición de la red interna a usuarios no autorizados.
       .col-lg-4.col-7: img(src='@/assets/curso/temas/41.svg', alt='')
     div(style="background-color: #efe8f7 ")
@@ -25,7 +25,7 @@
     p.mb-5(data-aos='fade-right') Por otra parte, la educación de los usuarios en prácticas seguras también contribuye a la seguridad de las redes inalámbricas. Los usuarios deben ser conscientes de los riesgos potenciales y tomar medidas preventivas, como no conectarse a redes públicas desconocidas, evitar compartir contraseñas y mantener sus dispositivos actualizados. La concienciación sobre los riesgos asociados con la conexión inalámbrica puede ayudar a reducir incidentes de seguridad y mejorar la protección de la red. 
     Separador
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 4.1	Protocolos de seguridad (WEP, WPA, WPA2)
+      h2 4.1	Protocolos de seguridad (WEP, WPA, WPA2, WPA3)
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.mb-lg-0.mb-3
         p.mb-0 Los protocolos de seguridad en redes inalámbricas son fundamentales para proteger la información que se transmite y garantizar que solo usuarios autorizados accedan a la red. Los tres protocolos principales —WEP (Wired Equivalent Privacy), WPA (Wi-Fi Protected Access) y WPA2— fueron desarrollados para mejorar la seguridad de las redes inalámbricas, especialmente en entornos públicos y corporativos donde las amenazas son mayores. Estos protocolos encriptan la información y autentican los dispositivos que intentan conectarse, dificultando la interceptación y manipulación de datos por personas no autorizadas.
@@ -55,7 +55,7 @@
                 img(src='@/assets/curso/temas/46.png', alt='Texto que describa la imagen')
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 3.
-      span Protocolos de seguridad (WEP, WPA, WPA2)
+      span Protocolos de seguridad (WEP, WPA, WPA2, WPA3)
     .tabla-a.color-acento-botones.mb-5
       table
         caption Fuente: OIT, 2024.
@@ -90,7 +90,7 @@
 
 
           tr
-            td(style="background-color: #ebf6ea ").fw-bold WP3
+            td(style="background-color: #ebf6ea ").fw-bold WPA3
             td Ofrecer la máxima seguridad en redes modernas con protección avanzada de datos.
             td Incluye cifrado individualizado para conexiones; ideal para redes que manejan información sensible.
             td Redes de organizaciones con altos requisitos de seguridad, redes de última generación.
@@ -107,7 +107,7 @@
     .row.justify-content-center.mb-5
       .col-lg-9.mb-lg-0.mb-3
         TabsA.color-acento-botones.mb-5
-          .tarjeta.p-4(titulo="Para redes empresariales" style="background-color: #efe8f7 ")
+          .tarjeta.p-4(titulo="Para redes <br> empresariales" style="background-color: #efe8f7 ")
             p  Se suele implementar la autenticación basada en RADIUS (#[em Remote Authentication Dial-In User Service]), que utiliza un servidor de autenticación centralizado para gestionar el acceso de los usuarios. Este método permite que cada usuario tenga credenciales únicas, mejorando así el control sobre quién puede acceder a la red. El servidor RADIUS verifica las credenciales de cada usuario y, si son correctas, permite el acceso. Este tipo de autenticación es común en entornos empresariales y en redes públicas, donde se necesita un mayor control sobre el acceso y se requiere registrar el ingreso de cada usuario.
 
           .tarjeta.p-4(titulo="Extra a la autenticación" style="background-color: #efe8f7 ")
@@ -131,13 +131,13 @@
       .col-lg-9.col-6.mb-lg-0.mb-3
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--morada")
           div(titulo="Una de las principales funciones del monitoreo")
-            p.mb-0 Es detectar y prevenir intrusiones. Esto es posible gracias a sistemas de detección de intrusos (IDS, Intrusion Detection System) y de prevención de intrusiones (IPS, Intrusion Prevention System), que son capaces de identificar comportamientos sospechosos en la red y responder automáticamente para mitigar las amenazas. Estos sistemas alertan al administrador cuando un dispositivo no autorizado intenta acceder a la red, lo que permite bloquear el acceso o limitar las acciones del dispositivo hasta que se investigue el incidente.
+            p.mb-0 Es detectar y prevenir intrusiones. Esto es posible gracias a sistemas de detección de intrusos (IDS, #[em  Intrusion Detection System]) y de prevención de intrusiones (IPS, #[em Intrusion Prevention System]), que son capaces de identificar comportamientos sospechosos en la red y responder automáticamente para mitigar las amenazas. Estos sistemas alertan al administrador cuando un dispositivo no autorizado intenta acceder a la red, lo que permite bloquear el acceso o limitar las acciones del dispositivo hasta que se investigue el incidente.
           div(titulo="Extra al monitoreo")
-            p.mb-0 La gestión de rendimiento es necesaria para mantener la calidad de la conexión y minimizar las interrupciones. La gestión incluye la optimización del ancho de banda y el control de acceso a la red para evitar la congestión en áreas de alta densidad de usuarios. A través de la configuración y ajuste de los Access Points y del análisis del tráfico de red, los administradores pueden asegurar que el ancho de banda se distribuya de forma eficiente y que cada usuario reciba una conexión estable. También es posible priorizar el tráfico de aplicaciones críticas, garantizando que no se vean afectadas por el uso de otros servicios.
+            p.mb-0 La gestión de rendimiento es necesaria para mantener la calidad de la conexión y minimizar las interrupciones. La gestión incluye la optimización del ancho de banda y el control de acceso a la red para evitar la congestión en áreas de alta densidad de usuarios. A través de la configuración y ajuste de los #[em Access Points] y del análisis del tráfico de red, los administradores pueden asegurar que el ancho de banda se distribuya de forma eficiente y que cada usuario reciba una conexión estable. También es posible priorizar el tráfico de aplicaciones críticas, garantizando que no se vean afectadas por el uso de otros servicios.
 
           div(titulo="El uso de herramientas de análisis de datos")
             p.mb-0 En redes inalámbricas ha permitido una evolución significativa en el monitoreo de redes. Estas herramientas generan informes detallados sobre el comportamiento de los dispositivos conectados, las horas de mayor uso y el tipo de tráfico que circula en la red. Esta información permite a los administradores identificar patrones de uso y anticipar problemas antes de que afecten a los usuarios. Por su parte, los análisis de datos pueden utilizarse para mejorar la seguridad, identificando comportamientos anómalos que podrían indicar intentos de ataque o el uso indebido de la red.
-          div(titulo="La actualización constante de software y firmware")
+          div(titulo="La actualización constante de <em>software</em> y <em>firmware</em>")
             p.mb-0 De los dispositivos de red es otra práctica fundamental en la gestión. Las actualizaciones corrigen vulnerabilidades y mejoran el rendimiento de los Access Points, routers y otros dispositivos de la red. Un programa de actualización periódica asegura que la red esté protegida contra las amenazas más recientes y que funcione con los últimos estándares de seguridad.
           div(titulo="Pruebas de instalación y funcionamiento")
             p.mb-0 Durante la instalación, se deben realizar pruebas parciales y continuas para asegurar que cada componente cumple con los estándares de calidad. Por ejemplo, al instalar cables de par trenzado o fibra óptica, se deben verificar parámetros de conexión y continuidad para asegurarse de que no haya errores en las conexiones. En la fase final, se realizan pruebas de rendimiento para confirmar que el sistema cumple con los requisitos de ancho de banda y calidad de señal.
@@ -150,7 +150,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-1.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/50.svg', alt='')
             .col-lg-11
-              p.mb-0 Finalmente, el registro y almacenamiento de eventos de red son componentes esenciales de una estrategia de monitoreo y gestión efectiva. Los logs de red, o registros de eventos, permiten a los administradores realizar auditorías, investigar incidentes y analizar cualquier anomalía en el funcionamiento de la red. Mantener estos registros actualizados facilita la resolución de problemas, permite tener un historial de incidentes y mejora el control sobre el acceso a la red.
+              p.mb-0 Finalmente, el registro y almacenamiento de eventos de red son componentes esenciales de una estrategia de monitoreo y gestión efectiva. Los #[em logs] de red, o registros de eventos, permiten a los administradores realizar auditorías, investigar incidentes y analizar cualquier anomalía en el funcionamiento de la red. Mantener estos registros actualizados facilita la resolución de problemas, permite tener un historial de incidentes y mejora el control sobre el acceso a la red.
     .row.justify-content-center.mb-5
       .col-lg-h-10
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')

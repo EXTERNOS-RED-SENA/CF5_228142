@@ -171,39 +171,39 @@ export default {
   },
   complementario: [
     {
-      tema: '1.  Cómo funcionan las redes inalámbricas',
+      tema: '1. Tecnologías inalámbricas',
       referencia:
         'Ecosistema de Recursos Educativos Digitales SENA. (2021f, junio 25). Tecnologías inalámbricas.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=hyIpJZBLYg0',
     },
     {
-      tema: '2. Site Survey',
+      tema: '2. Dispositivos y componentes IoT',
       referencia:
         'Ecosistema de Recursos Educativos Digitales SENA. (2023d, octubre 30). Infraestructura Inalambrica.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=XaZJ3EYxQHU',
     },
     {
-      tema: '3. Arquitectura de internet de las cosas',
+      tema: '3. Infraestructura inalámbrica',
       referencia:
         'Ecosistema de Recursos Educativos Digitales SENA. (2022f, marzo 11). Dispositivos y componentes IoT.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=gaa-7nYolxE',
     },
     {
-      tema: '4. Herramientas de monitoreo y control',
+      tema: '4. Seguridad en redes inalámbricas',
       referencia:
         'Ecosistema de Recursos Educativos Digitales SENA. (2023e, enero 29). Seguridad en redes inalámbricas.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=gp2cLOeucn4',
     },
     {
-      tema: '5. Seguridad en Redes WIFI  Protocolos WEP, WPA, WPA2 y WPA3',
+      tema: '4. Seguridad en redes inalámbricas',
       referencia:
         'Contando Bits. (2024c, agosto 8). Protocolos de seguridad (WEP, WPA, WPA2).',
       tipo: 'Video',
-      link: 'Protocolos de seguridad inalámbrica: WEP, WPA, WPA2, y WPA3',
+      link: 'https://youtu.be/bloaGu5rl_I?feature=shared',
     },
   ],
   glosario: [
@@ -225,7 +225,7 @@ export default {
     {
       termino: 'Arquitectura inalámbrica',
       significado:
-        'Estructura y organización de los componentes y dispositivos de una red inalámbrica, incluyendo la disposición de access points, antenas y dispositivos terminales.',
+        'Estructura y organización de los componentes y dispositivos de una red inalámbrica, incluyendo la disposición de <em>access points</em>, antenas y dispositivos terminales.',
     },
     {
       termino: 'Autenticación',
