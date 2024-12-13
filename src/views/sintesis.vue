@@ -13,15 +13,10 @@
           br
           |Por último, se enfatiza en la importancia de la seguridad en redes inalámbricas, abordando tanto la protección de la infraestructura como la autenticación y control de acceso para los usuarios. Se presentan estrategias avanzadas de monitoreo y gestión que permiten supervisar y mantener la integridad de la red, asegurando que el acceso sea seguro y que el rendimiento se mantenga óptimo en todo momento.
 
-
-
-
-
-
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/sintesis.svg", alt="alt")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
